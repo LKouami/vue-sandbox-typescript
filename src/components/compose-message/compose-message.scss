@@ -1,0 +1,71 @@
+.header{
+  margin-right: 25px;
+}
+
+
+#composeObjet{
+  border-radius: 4px;
+  border-color: #cbced0;
+  height: 32px;
+}
+
+.piecejointe{
+  align-items: center;
+  margin-top: 2px;
+}
+b-form-group label{
+  border: solid 2px;
+}
+
+.composePieceJointeInput{
+border-color: #000000;
+color:transparent; 
+width:135px; 
+margin-top:3px;
+
+}
+  .composeViewContent{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #d7dfe6;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.composeViewContentDiv{
+     padding-right: 10px;
+     padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.selectZoneView{
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+.compose{
+  padding-top: 10px;
+}
+.editor{
+  margin-top: -10px;
+   padding-right: 45px;
+   padding-left: 70px;
+}
+#buttonsCompose{
+  margin-right: 45px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#envoye {
+  color: white;
+}
+
+@media all and (min-width: 992px) and (max-width: 1310px)
+{
+  .col-lg-10{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
