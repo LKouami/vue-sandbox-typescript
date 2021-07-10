@@ -1,18 +1,18 @@
 <template>
   <div style="background-color: beige">
     <br>
-    <card-collapse/>
+    <message-card-group/>
     <br>
   </div>
 </template>
 <script lang="ts">
+import MessageCardGroup from "../../components/message-card-group/message-card-group.vue";
 import Vue from "vue";
- import CardCollapse from "../../components/card-collapse/card-collapse.vue";
 export default Vue.extend({
   name: "SandBox",
 
   components: {
-    CardCollapse
+    MessageCardGroup
   },
   data() {
     return {

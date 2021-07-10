@@ -1,0 +1,33 @@
+.messageCard{
+    font-size: 14px;
+    border-radius: 0px;
+    border-bottom: none;
+    border-top: none;
+}
+
+.messageCardImage{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.emailRow{
+    height:50%; 
+    align-items: center
+}
+.messageContent{
+    height:50%; 
+    align-items: center
+}
+.iconsRow{
+    height:40%; 
+    align-items: center
+}
+.messageDatePriority{
+    height:60%;
+}
+.messageDetails{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+}
+.messageCardHeader{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.081);
+}
