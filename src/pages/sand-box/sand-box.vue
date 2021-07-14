@@ -1,18 +1,15 @@
 <template>
-  <div style="background-color: beige">
-    <br>
-    <message-card-group/>
-    <br>
-  </div>
+  
+    <form-tag/>
 </template>
 <script lang="ts">
-import MessageCardGroup from "../../components/message-card-group/message-card-group.vue";
+import FormTag from "../../components/form-tag/form-tag.vue";
 import Vue from "vue";
 export default Vue.extend({
   name: "SandBox",
 
   components: {
-    MessageCardGroup
+    FormTag,
   },
   data() {
     return {
